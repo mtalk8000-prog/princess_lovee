@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="fa" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>برای پرنسس من 🤍</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<div class="container">
+
+<div class="folder">
+📂
+</div>
+
+<h2>
+برای پرنسس من 🤍
+</h2>
+
+<p>
+روی پوشه بزن
+</p>
+
+</div>
+
+<script>
+
+const folder = document.querySelector(".folder");
+
+folder.addEventListener("click",()=>{
+
+document.body.innerHTML = `
+
+<div class="message-page">
+
+<div class="glass">
+
+<h1>
+صبح بخیر عزیزم 🤍
+</h1>
+
+<p>
+امیدوارم حالت همیشه خوب باشه و امروزت پر از انرژی و آرامش باشه.
+صبح قشنگت رو قوی شروع کن،
+برو کارهای مهمت رو انجام بده،
+بعدش بیا باهم حرف بزنیم 🤍
+</p>
+
+<p>
+همیشه دوست دارم صحیح و سالم باشی،
+یکی یدونه من 🥲🤍
+</p>
+
+<p>
+مهم نیست کجا باشیم یا مشغول چه کاری باشیم،
+من همیشه هواتو دارم پرنسس من 🫠🤍
+</p>
+
+<br>
+
+<h2 id="loadingText">
+Loading...
+</h2>
+
+<p id="systemText"></p>
+
+</div>
+
+</div>
+
+`;
+
+setTimeout(() => {
+
+document.getElementById("loadingText").innerHTML =
+"Searching for the best girl in the world... 🤍";
+
+},2000);
+
+setTimeout(() => {
+
+document.getElementById("loadingText").innerHTML =
+"Found ✔";
+
+},4500);
+
+setTimeout(() => {
+
+document.getElementById("systemText").innerHTML =
+
+`
+<br>
+
+🤍 Name: Niki
+
+<br><br>
+
+👑 Status: My Princess
+
+<br><br>
+
+✨ Smile Level: Maximum
+
+<br><br>
+
+🛡️ Protection Mode: Always Active
+
+<br><br>
+
+🤍 Special Level: One Of A Kind
+
+<br><br>
+
+♾️ Love Status: Forever
+
+`;
+
+},6500);
+
+});
+
+</script>
+
+</body>
+
+</html>
